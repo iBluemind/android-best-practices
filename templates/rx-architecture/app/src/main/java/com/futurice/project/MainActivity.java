@@ -1,11 +1,11 @@
 package com.futurice.project;
 
-import com.futurice.project.fragments.BookFragment;
-
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.futurice.project.fragments.BookFragment;
 
 public class MainActivity extends FragmentActivity {
     @Override
@@ -14,7 +14,7 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                .add(R.id.container, new BookFragment())
+                .add(R.id.container, BookFragment.newInstance())
                 .commit();
         }
     }

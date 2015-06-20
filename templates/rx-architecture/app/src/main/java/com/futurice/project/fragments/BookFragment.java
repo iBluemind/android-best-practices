@@ -29,6 +29,15 @@ public class BookFragment extends Fragment {
     private TextView bookAuthorTextView;
     private TextView bookPriceTextView;
 
+    public BookFragment() {
+        // DO NOT USE!
+    }
+
+    public static BookFragment newInstance() {
+        BookFragment bookFragment = new BookFragment();
+        return bookFragment;
+    }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
