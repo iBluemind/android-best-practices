@@ -1,17 +1,17 @@
 package com.futurice.project.fragments;
 
-import com.futurice.project.R;
-import com.futurice.project.models.BiographiesModel;
-import com.futurice.project.models.pojo.Author;
-import com.futurice.project.models.pojo.Book;
-import com.futurice.project.utils.SubscriptionUtils;
-
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.futurice.project.R;
+import com.futurice.project.models.BiographiesModel;
+import com.futurice.project.models.pojo.Author;
+import com.futurice.project.models.pojo.Book;
+import com.futurice.project.utils.SubscriptionUtils;
 
 import java.util.List;
 
@@ -37,8 +37,7 @@ public class BookFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
-        Bundle savedInstanceState)
-    {
+        Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_main, container, false);
     }
 
