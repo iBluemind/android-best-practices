@@ -252,7 +252,7 @@ com.futurice.project
 - `android:layout_****` 속성들을 윗쪽에
 - `style` 속성은 맨 아래에
 - 태그를 닫는 `/>`는 정렬과 새 속성 추가를 위해 독립적인 줄에
-- Rather than hard coding `android:text`에 하드코딩하는 것보다, Android Studio에서 사용 가능한 [Designtime attributes](http://tools.android.com/tips/layout-designtime-attributes)를 고려하자.
+- `android:text`에 하드코딩하는 것보다, Android Studio에서 사용 가능한 [Designtime attributes](http://tools.android.com/tips/layout-designtime-attributes)를 고려하자.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
