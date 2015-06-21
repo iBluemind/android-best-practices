@@ -490,7 +490,7 @@ buildTypes {
     release {
         signingConfig signingConfigs.release
         minifyEnabled true
-        proguardFiles 'proguard-rules.pro'
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
 }
 ```
